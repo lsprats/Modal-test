@@ -6,4 +6,13 @@ function mostrarModal() {
   modal.style.left = x + "px";
   modal.style.top = y + "px";
   modal.style.visibility = "visible";
+};
+
+function quitar() {
+  var modal = document.getElementById("modal");
+  if(modal.style.visibility == "visible") {
+    modal.style.visibility = "hidden";
+  } else {
+    modal.style.visibility = "visible";
+  }
 }
