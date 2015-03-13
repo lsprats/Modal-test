@@ -56,9 +56,53 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 10000;
+  }
+  #modal-inner {
+    position: relative;
+  }
+  #modal-contenido {
+    background-color: #fff;
+    border: 1px #000 solid;
+    border-radius: 5px;
+    height:200px;
+    width:300px;
+  }
+    #modal-contenido input[type="text"], input[type="password"], input[type="submit"] {
+      margin-top: 10px;
+      padding: 10px;
+      text-align: center;
+      width: 60%;
+      margin-left: 40px;
+      font-family: sans-serif;
+      font-size: 16px;
+      box-shadow: none;
+      border-radius: none;
+    }
 
-
-
+.articles {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+.texto {
+    text-align: center;
+    margin: 20px;
+    padding: 100px;
+}
+article {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;    
+}
 
 
 
